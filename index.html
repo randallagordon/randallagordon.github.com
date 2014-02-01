@@ -2,43 +2,65 @@
   <title>randallagordon.github.io</title>
   <meta name="viewport" content="width=device=width,initial-scale=1,maximum-scale=1">
   <style type="text/css">
-  html {
-    background: #eee;
-  }
-
-  body {
-    margin: 03rem auto 0;
-    width: 20rem;
-    text-transform: lowercase;
-  }
-
-  ul {
-    list-style: none;
-    line-height: 1.5;
-    margin: 1rem 0 3rem;
-    padding: 0;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
+  html { background: #eee; }
+  body { margin: 3rem auto 0; width: 22rem; text-transform: lowercase; }
+  h1 { padding-bottom: 2rem; }
+  h2 { clear: both; padding-top: 2rem; }
+  h3 { border-bottom: 1px dotted black; margin-bottom: 0.33rem; }
+  p { margin-top: 0; padding: 0.125rem 0rem 1.00rem; }
+  ul { list-style: none; margin: 0 0 3rem; padding: 0; }
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .repo { clear: both; position: relative; }
+  .repo .description { float: left; }
+  .repo .links { position: absolute; top: 0px; right: 0px; }
   </style>
 </head>
 <body>
   <h1>randallagordon<br/> writes code.</h1>
-  <ul>
-    <li><a href="https://github.com/randallagordon/dotfiles">My Dotfiles</a> (fork of <a href="https://github.com/holman/dotfiles">@holman/dotfiles</a>)</li>
-    <li><a href="https://github.com/randallagordon/dotfiles-vim">Vim Config</a></li>
-    <li><a href="https://github.com/randallagordon/spacebrew-midi">spacebrew-midi</a></li>
-    <li><a href="https://github.com/randallagordon/node-nma">node-nma</a></li>
-    <li><a href="https://github.com/randallagordon/saint-five">saint-five</a></li>
-    <li><a href="https://github.com/randallagordon/jaraoke">jaraoke</a></li>
-    <li><a href="https://github.com/randallagordon/shapeoko-jogger">shapeoko-jogger</a></li>
-  </ul>
+
+  <div class="repo">
+    <h3>dotfiles</h3>
+    <p class="description">My dotfiles</p>
+    <div class="links"><a href="https://github.com/randallagordon/dotfiles">code</a></div>
+  </div>
+
+  <div class="repo">
+    <h3>dotfiles-vim</h3>
+    <p class="description">My Vim config</p>
+    <div class="links"><a href="https://github.com/randallagordon/dotfiles-vim">code</a></div>
+  </div>
+
+  <div class="repo">
+    <h3>node-nma</h3>
+    <p class="description">Node.js module and CLI tool for sending notifications via Notify My Android</p>
+    <div class="links"><a href="https://github.com/randallagordon/node-nma">code</a></div>
+  </div>
+
+  <div class="repo">
+    <h3>spacebrew-midi</h3>
+    <p class="description">Pipe MIDI events to Spacebrew</p>
+    <div class="links"><a href="https://github.com/randallagordon/spacebrew-midi">code</a></div>
+  </div>
+
+  <div class="repo">
+    <h3>saint-five</h3>
+    <p class="description">Expose Johnny-Five objects via Spacebrew</p>
+    <div class="links"><a href="https://github.com/randallagordon/saint-five">code</a></div>
+  </div>
+
+  <div class="repo">
+    <h3>shapeoko-jogger</h3>
+    <p class="description">ShapeOko Web Remote: Use Hammer.js swipe events to control G-code speaking CNC gear</p>
+    <div class="links"><a href="http://log.randallagordon.com/post/35363614671/controlling-a-shapeoko-using-a-cup-of-coffee-creamed">post</a> / <a href="https://github.com/randallagordon/shapeoko-jogger">code</a></div>
+  </div>
+
+  <div class="repo">
+    <h3>jaraoke</h3>
+    <p class="description">an &lt;audio&gt; tag karaoke demo</p>
+    <div class="links"><a href="http://randallagordon.com/jaraoke/">site</a> / <a href="http://randallagordon.com/blog/2009/07/19/jaraoke-html5-audio-tag-demo/">post</a> / <a href="https://github.com/randallagordon/jaraoke">code</a></div>
+  </div>
+
   <h2>Contact me:</h2>
   <ul>
     <li><a href="https://plus.google.com/+RandallAGordon/" rel="author">Google+</a></li>
